@@ -40,3 +40,5 @@ models:
     # Applies to all files under models/example/
     raw:
       +materialized: table
+      +database: DBT
+      +schema: RAW_SCHEMA
